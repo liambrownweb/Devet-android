@@ -1,0 +1,402 @@
+
+
+<head>
+<title>&quot;Devet&quot; - the game</title>
+</head>
+
+<body bgcolor="#FFF2F2" text="#000000" link="#808080" vlink="#808080" alink="#808080">
+
+<b>
+
+<img src = "devetlogo.png">
+</b>
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="middle" align="center" width="260" bgcolor="#CCCCFF" height="260">
+      <table border="0" cellspacing="0" cellpadding="0" width="240" height="240">
+        <tr>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl00" onmouseover="check_pos(0)" onmouseout="uncheck_pos(0)" onclick="make_move(0)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl01" onmouseover="check_pos(1)" onmouseout="uncheck_pos(1)" onclick="make_move(1)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl02" onmouseover="check_pos(2)" onmouseout="uncheck_pos(2)" onclick="make_move(2)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl03" onmouseover="check_pos(3)" onmouseout="uncheck_pos(3)" onclick="make_move(3)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl04" onmouseover="check_pos(4)" onmouseout="uncheck_pos(4)" onclick="make_move(4)"></td>
+        </tr>
+        <tr>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl05" onmouseover="check_pos(5)" onmouseout="uncheck_pos(5)" onclick="make_move(5)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl06" onmouseover="check_pos(6)" onmouseout="uncheck_pos(6)" onclick="make_move(6)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl07" onmouseover="check_pos(7)" onmouseout="uncheck_pos(7)" onclick="make_move(7)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl08" onmouseover="check_pos(8)" onmouseout="uncheck_pos(8)" onclick="make_move(8)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl09" onmouseover="check_pos(9)" onmouseout="uncheck_pos(9)" onclick="make_move(9)"></td>
+        </tr>
+        <tr>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl10" onmouseover="check_pos(10)" onmouseout="uncheck_pos(10)" onclick="make_move(10)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl11" onmouseover="check_pos(11)" onmouseout="uncheck_pos(11)" onclick="make_move(11)"></td>
+          <td width="20%"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="cl12" onmouseover="check_pos(12)" onmouseout="uncheck_pos(12)" onclick="make_move(12)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl13" onmouseover="check_pos(13)" onmouseout="uncheck_pos(13)" onclick="make_move(13)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl14" onmouseover="check_pos(14)" onmouseout="uncheck_pos(14)" onclick="make_move(14)"></td>
+        </tr>
+        <tr>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl15" onmouseover="check_pos(15)" onmouseout="uncheck_pos(15)" onclick="make_move(15)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl16" onmouseover="check_pos(16)" onmouseout="uncheck_pos(16)" onclick="make_move(16)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl17" onmouseover="check_pos(17)" onmouseout="uncheck_pos(17)" onclick="make_move(17)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl18" onmouseover="check_pos(18)" onmouseout="uncheck_pos(18)" onclick="make_move(18)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl19" onmouseover="check_pos(19)" onmouseout="uncheck_pos(19)" onclick="make_move(19)"></td>
+        </tr>
+        <tr>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl20" onmouseover="check_pos(20)" onmouseout="uncheck_pos(20)" onclick="make_move(20)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl21" onmouseover="check_pos(21)" onmouseout="uncheck_pos(21)" onclick="make_move(21)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl22" onmouseover="check_pos(22)" onmouseout="uncheck_pos(22)" onclick="make_move(22)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl23" onmouseover="check_pos(23)" onmouseout="uncheck_pos(23)" onclick="make_move(23)"></td>
+          <td width="20%"><img border="0" src="graphics/element_00.gif" width="48" height="48" name="cl24" onmouseover="check_pos(24)" onmouseout="uncheck_pos(24)" onclick="make_move(24)"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="20" valign="top" align="center">
+      <table border="0" height="100%" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+          <td width="100%" height="100" bgcolor="#CCCCFF">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="100%"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="100" valign="top" align="center">
+      <table border="0" width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="100%" bgcolor="#CC99FF" height="30">
+            <p align="center"><font size="3"><b>CURRENT</b></font></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="middle" align="center" height="70" bgcolor="#CCCCFF">
+            <p align="center"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="ccur"></td>
+        </tr>
+        <tr>
+          <td width="100%" height="70"></td>
+        </tr>
+        <tr>
+          <td width="100%" bgcolor="#CC99FF" height="30">
+            <p align="center"><font size="3"><b>NEXT</b></font></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="middle" align="center" height="70" bgcolor="#CCCCFF">
+            <p align="center"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="cnext"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<span id="game"></span>
+
+<p>&nbsp;</p>
+<table border="0" width="380" cellspacing="0" cellpadding="0" bgcolor="#CCCCFF">
+  <tr>
+    <td width="100%">
+      <p align="right"><img border="0" src="graphics/button_01.gif" width="70" height="16" onclick="init_game()"><img border="0" src="graphics/button_02.gif" width="70" height="16" onclick="show_help()"><img border="0" src="graphics/button_03.gif" width="70" height="16" onclick="show_credits()"></p>
+    </td>
+  </tr>
+</table>
+
+<p><a href="http://tuzsuzov.com"><font size="2">
+
+(C) 2002 - Jordan Tuzsuzov<script language="JavaScript">
+
+// DEVET (C) 2002 Jordan Tuzsuzov 
+// DEVET was created on 25.09-26.09 2002;
+// www.tuzsuzov.com
+
+function MakeArray(n)
+{
+	for (var i = 0; i <= n-1; i++)
+	{
+		this[i] = 0;
+	}
+	return this
+}
+
+function InitArray()
+{
+	this.length = InitArray.arguments.length
+	for (var i = 0; i < this.length; i++)
+	this[i] = InitArray.arguments[i]
+}
+
+
+var c_image = new MakeArray( 13 );
+var f_field = new MakeArray( 25 );
+var c_current;
+var c_next;
+var n_score;
+var b_gameover;
+var n_up 		= new InitArray( 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0 );
+var n_down 	= new InitArray( 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1 );
+var n_left		= new InitArray( 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1 );
+var n_right	= new InitArray( 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1 );
+
+function show_help()
+{
+	window.open( "help.htm", "newWindow", "toolbar=yes,location=1,directories=yes,status=yes,menubar=1,scrollbars=yes,resizable=0,copyhistory=1,width=500,height=400");
+}
+
+function show_credits()
+{
+	window.open( "credits.htm", "newWindow", "toolbar=yes,location=1,directories=yes,status=yes,menubar=1,scrollbars=yes,resizable=0,copyhistory=1,width=500,height=400");
+}
+
+function preload ()
+{
+	for ( var i = 0; i < 13; i++ )
+	{
+		c_image[i] = new Image (48, 48);
+	}
+	c_image[0].src = "graphics/element_00.gif";
+	c_image[1].src = "graphics/element_01.gif";
+	c_image[2].src = "graphics/element_02.gif";
+	c_image[3].src = "graphics/element_03.gif";
+	c_image[4].src = "graphics/element_04.gif";
+	c_image[5].src = "graphics/element_05.gif";
+	c_image[6].src = "graphics/element_06.gif";
+	c_image[7].src = "graphics/element_07.gif";
+	c_image[8].src = "graphics/element_08.gif";
+	c_image[9].src = "graphics/element_09.gif";
+	c_image[10].src = "graphics/element_10.gif";
+	c_image[11].src = "graphics/element_11.gif";
+	c_image[12].src = "graphics/element_no.gif";
+}
+
+function init_game ()
+{
+	for ( var i = 0; i < 25; i ++ )
+	{
+		f_field[ i ] = 0;
+	}
+	f_field[ 12 ] = 1;
+	
+	c_current = Math.floor( Math.random() * 11 ) + 1;
+	c_next = Math.floor( Math.random() * 11 ) + 1;
+
+	n_score = 0;
+	b_gameover = 0;
+
+	show_screen();
+}
+
+function show_screen(num)
+{
+	document.cl00.src = c_image[ f_field[ 0 ] ].src;
+	document.cl01.src = c_image[ f_field[ 1 ] ].src;
+	document.cl02.src = c_image[ f_field[ 2 ] ].src;
+	document.cl03.src = c_image[ f_field[ 3 ] ].src;
+	document.cl04.src = c_image[ f_field[ 4 ] ].src;
+	document.cl05.src = c_image[ f_field[ 5 ] ].src;
+	document.cl06.src = c_image[ f_field[ 6 ] ].src;
+	document.cl07.src = c_image[ f_field[ 7 ] ].src;
+	document.cl08.src = c_image[ f_field[ 8 ] ].src;
+	document.cl09.src = c_image[ f_field[ 9 ] ].src;
+	document.cl10.src = c_image[ f_field[ 10 ] ].src;
+	document.cl11.src = c_image[ f_field[ 11 ] ].src;
+	document.cl12.src = c_image[ f_field[ 12 ] ].src;
+	document.cl13.src = c_image[ f_field[ 13 ] ].src;
+	document.cl14.src = c_image[ f_field[ 14 ] ].src;
+	document.cl15.src = c_image[ f_field[ 15 ] ].src;
+	document.cl16.src = c_image[ f_field[ 16 ] ].src;
+	document.cl17.src = c_image[ f_field[ 17 ] ].src;
+	document.cl18.src = c_image[ f_field[ 18 ] ].src;
+	document.cl19.src = c_image[ f_field[ 19 ] ].src;
+	document.cl20.src = c_image[ f_field[ 20 ] ].src;
+	document.cl21.src = c_image[ f_field[ 21 ] ].src;
+	document.cl22.src = c_image[ f_field[ 22 ] ].src;
+	document.cl23.src = c_image[ f_field[ 23 ] ].src;
+	document.cl24.src = c_image[ f_field[ 24 ] ].src;
+	
+	document.ccur.src = c_image[ c_current ].src;
+	document.cnext.src = c_image[ c_next ].src;
+
+	if ( b_gameover )
+		message("<font size=\"4\"><b>GAME OVER !</b> SCORE : "+n_score+"</font>");
+	else
+		message("<font size=\"4\"><b>SCORE : "+n_score+"</b></font>");
+}
+
+function scroll_left()
+{
+	for ( var j = 0; j < 5; j++ )
+	{
+		for ( var i = 0; i < 4; i++ )
+		{
+			f_field[ j * 5 + i ] = f_field[ j * 5 + i + 1 ];
+		}
+	}
+	for ( var k = 4; k < 25; k += 5 )
+		f_field[ k ] = 0;
+}
+
+function scroll_right()
+{
+	for ( var j = 0; j < 5; j++ )
+	{
+		for ( var i = 4; i > 0; i-- )
+		{
+			f_field[ j * 5 + i] = f_field[ j * 5 + i - 1 ];
+		}
+	}
+	for ( var k = 0; k < 21; k += 5 )
+		f_field[ k ] = 0;
+}
+
+function scroll_up()
+{
+	for ( var j = 0; j < 4; j++ )
+	{
+		for ( var i = 0; i < 5; i++ )
+		{
+			f_field[ j * 5 + i ] = f_field[ (j + 1) * 5 + i ];
+		}
+	}
+	for ( var k = 20; k < 25; k ++ )
+		f_field[ k ] = 0;
+}
+
+function scroll_down()
+{
+	for ( var j = 4; j > 0; j-- )
+	{
+		for ( var i = 0; i < 5; i++ )
+		{
+			f_field[ j * 5 + i ] = f_field[ (j - 1) * 5 + i ];
+		}
+	}
+	for ( var k = 0; k < 5; k ++ )
+		f_field[ k ] = 0;
+}
+
+function get_up_element(num)
+{
+	return num - 5;
+}
+
+function get_down_element(num)
+{
+	var res = num + 5;
+	if ( res > 24 )
+		return -1
+	else
+		return res;
+}
+
+function get_left_element(num)
+{
+	var res = num - 1;
+	if ( res < 0 || res == 4 || res == 9 || res == 14 || res == 19 )
+		return -1
+	else
+		return res;
+}
+
+function get_right_element(num)
+{
+	var res = num + 1;
+	if ( res > 24 || res == 5 || res == 10 || res == 15 || res == 20 )
+		return -1
+	else
+		return res;
+}
+
+function help(message)
+{
+	window.status = message;
+	return true;
+}
+
+function message( mes )
+{
+	if ( document.all )
+		document.all.game.innerHTML=mes;
+	else if ( document.getElementById )
+		document.getElementById("game").innerHTML=mes;
+	else
+		document.write(mes);
+}
+
+function move_possible(num)
+{
+	var nl, nr, nu, nd;
+	
+	if ( f_field[num] == 0 )
+	{
+		nl = get_left_element(num);
+		nr = get_right_element(num);
+		nu = get_up_element(num);
+		nd = get_down_element(num);
+		
+		if ( 	(nl >= 0 && n_left[c_current] && n_right[f_field[nl]]) ||
+				(nr >= 0 && n_right[c_current] && n_left[f_field[nr]]) ||
+				(nu >= 0 && n_up[c_current] && n_down[f_field[nu]]) ||
+				(nd >= 0 && n_down[c_current] && n_up[f_field[nd]]) )
+			{
+				return 1;
+			}
+	}
+	return 0;
+}
+
+function check_endgame()
+{
+	b_gameover = 1;
+	for ( var j = 0; j < 25; j ++ )
+		if ( move_possible( j ) )
+			b_gameover = 0;
+}
+
+function check_pos(num)
+{
+	if ( f_field[num] == 0 )
+		if ( move_possible(num) )
+			f_field[ num ] = 0;
+		else
+			f_field[ num ] = 12;
+
+	show_screen();
+}
+
+function uncheck_pos(num)
+{
+	if ( f_field[ num ] == 12 )
+		f_field[ num ] = 0;
+
+	show_screen();
+}
+
+function make_move(num)
+{
+	if ( f_field[num] == 0 && move_possible(num) )
+	{
+		f_field[num] = c_current;
+
+		if ( get_left_element(num) < 0 && n_left[c_current] )
+			scroll_right();
+		if ( get_right_element(num) < 0 && n_right[c_current] )
+			scroll_left();
+		if ( get_up_element(num) < 0 && n_up[c_current] )
+			scroll_down();
+		if ( get_down_element(num) < 0 && n_down[c_current] )
+			scroll_up();
+
+		c_current = c_next
+		c_next = Math.floor( Math.random() * 11 ) + 1;
+		n_score ++;
+	}
+	
+	check_endgame();
+	
+	help("SCORE : "+n_score);
+	show_screen();
+}
+
+preload();
+init_game();
+
+</script>
+</font></a></p>
