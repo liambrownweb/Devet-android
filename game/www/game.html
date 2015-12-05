@@ -4,6 +4,7 @@
 <title>&quot;Devet&quot; - the game</title>
 <link rel="stylesheet" type="text/css" href="css/game.css" />
 <script src="js/fastclick.js"></script>
+<!--script src="cordova.js"></script-->
 <script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body text="#000000" link="#808080" vlink="#808080" alink="#808080">
@@ -62,6 +63,9 @@
 		<tr>
 			<td width="100" valign="top" align="left">
 				<table border="0" width="100%" cellspacing="0" cellpadding="0">
+				<colgroup>
+					<col width="19%"><col width="23%"><col width="19%"><col width="20%"><col width="19%">
+				</colgroup>
 					<tr>
 						<td></td>
 						<td width="30" height="30">
@@ -73,15 +77,15 @@
 					</tr>
 					<tr>
 						<td></td>
-						<td width="30" valign="middle" align="center" height="70" 
+						<td width="30" valign="middle" align="center" height="70">
 							<div class="board stars">
-								<p align="center"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="ccur">
+								<span align="center"><img border="0" src="graphics/element_01.gif" width="64" height="64" name="ccur"></span>
 							</div>
 						</td>
 						<td></td>
-						<td width="30" valign="middle" align="center" height="70" 
+						<td width="30" valign="middle" align="center" height="70">
 							<div class="board stars">
-								<p align="center"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="cnext">
+								<span align="center"><img border="0" src="graphics/element_01.gif" width="48" height="48" name="cnext"></span>
 							</div>
 						</td>
 						<td></td>
@@ -94,7 +98,7 @@
 
 	<div style="margin: .5em auto .5em auto; text-align: center" id="game"></div>
 </div>
-<div id="controls">
+<div id="controls" style="display: none">
 	<div style="position: fixed; bottom: 0px; left:0px; right: 0px">
 	<table class="game_buttons" border="0" style="width: 100%" cellspacing="0" cellpadding="0"> 
 		<tr align="center">

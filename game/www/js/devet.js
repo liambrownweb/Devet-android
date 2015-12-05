@@ -5,6 +5,15 @@ if ('addEventListener' in document) {
 			}, false);
 }
 
+function doMenu(close_menu) {
+	if (show_menu || close_menu) {
+		document.getElementById("controls").style['display']="none";
+		show_menu = false;
+	} else {
+		document.getElementById("controls").style['display']="block";
+		show_menu = true;
+	}
+}
 
 // DEVET (C) 2002 Jordan Tuzsuzov 
 // DEVET was created on 25.09-26.09 2002;
@@ -37,6 +46,7 @@ var n_up 		= new InitArray( 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0 );
 var n_down 	= new InitArray( 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1 );
 var n_left		= new InitArray( 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1 );
 var n_right	= new InitArray( 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1 );
+var show_menu = false;
 
 function preload ()
 {
@@ -73,7 +83,7 @@ function init_game ()
 
 	n_score = 0;
 	b_gameover = 0;
-
+	document.addEventListener("menubutton", doMenu, false);
 	show_screen();
 }
 
